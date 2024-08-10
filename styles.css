@@ -3,6 +3,7 @@
     src: url(http://fonts.googleapis.com/css?family=Roboto);
 }
 
+
 body{
     margin: 0px;
 }
@@ -62,7 +63,7 @@ a:link {
   width: 350px;
 }
 
-button{
+.firstbutton{
   background-color: #3882F6;
   color: #F9FAF8;
   font-family: 'Roboto';
@@ -79,8 +80,6 @@ button{
   font-weight: 700;
   text-align: center;
   color: #1F2937;
-  /* margin-top: 50px;
-  margin-bottom: 40px; */
   padding: 50px;
 }
 
@@ -113,4 +112,89 @@ button{
   text-wrap: wrap ;
   text-align: center;
   
+}
+
+.third_section{
+  background-color: #E5E7EB;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.quote{
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100 !important;
+  font-size: 36px;
+  color: #1F2937;
+  max-width: 850px;
+}
+
+.saidby{
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ghost{
+  width: 5px;
+  height: 5px; 
+}
+.saidbydiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 640px; 
+}
+
+.fourth_section{
+  background-color: #3882F6;
+  margin: 100 250 100 250;
+  padding: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.call{
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 500;
+  padding: 0;
+}
+
+.sub{
+  font-family: 'Roboto';
+  color: #c7c8ca;
+  padding: 0;
+}
+
+.rightoffourth{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.secondbutton{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-family: 'Roboto';
+  border:2px solid #F9FAF8;
+  padding: 8px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.footer{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
