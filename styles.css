@@ -9,6 +9,7 @@ body{
 
 p{
     font-family: 'Roboto';
+    color: #c7c8ca;
 }
 
 .topbar{
@@ -29,7 +30,7 @@ a:link {
     text-decoration: none; 
     font-family: "Roboto";
     font-size: 11px;
-    color: #E5E7EB;
+    color: #c7c8ca;
 
   } 
   a:visited { 
@@ -45,14 +46,71 @@ a:link {
 .main_section{
     background-color: #1F2937;
     display: flex;
-    padding: 25px;
+    padding: 50px;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .hero_text{
     font-family: 'Roboto';
-    font-weight: 'extra-bold';
+    font-weight: 800;
     font-size: 48px;
-    color: #E5E7EB;
+    color: #F9FAF8;
+}
+
+.content{
+  width: 350px;
+}
+
+button{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-family: 'Roboto';
+  border: none;
+  padding: 8px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.some_text{
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #1F2937;
+  /* margin-top: 50px;
+  margin-bottom: 40px; */
+  padding: 50px;
+}
+
+.second_section{
+  background-color: #F9FAF8;
+  padding: 50px;
+}
+
+.box_one{
+  height: 120px;
+  width: 120px;
+  border: 3px solid #3882F6;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.boxes{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 100px;
+}
+
+.one_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 120px;
+  vertical-align:middle;
+  text-wrap: wrap ;
+  text-align: center;
+  
 }
