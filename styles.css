@@ -198,3 +198,9 @@ a:link {
   justify-content: center;
   padding: 50px;
 }
+
+.text_footer{
+  font-family: "Roboto";
+  color: #F9FAF8;
+  font-size: 18px;
+}
